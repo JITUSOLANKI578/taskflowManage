@@ -16,7 +16,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   useEffect(() => {
     if (isAuthenticated && token) {
-      const newSocket = io('http://localhost:5000', {
+      const newSocket = io('https://taskflowmanage.onrender.com', {
         auth: { token }
       });
 

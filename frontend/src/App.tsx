@@ -18,7 +18,7 @@ import DelegationRequestsPanel from './components/DelegationRequestsPanel';
 import axios from 'axios';
 
 // Set axios base URL
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://taskflowmanage.onrender.com';
 
 function App() {
   return (
